@@ -1,0 +1,48 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+    width: 25%;
+    height: 700px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.screen {
+    background-color: rgb(209, 255, 209);
+    height: 210px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px;
+}
+
+.buttons {
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+button {
+    width: 25%;
+    height: 25%;
+    border: 1px black solid;
+    border-radius: 0px;
+    font-size: 60px;
+    font-family: 'JetBrains Mono';
+}
+
+.output {
+    font-size: 120px;
+}
